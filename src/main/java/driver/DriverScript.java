@@ -20,10 +20,7 @@ public class DriverScript {
 		ds.executeTest(xls, "TestCases", "CarePlan");
 	}
 	
-public void executeTest(Xls_Reader xls, String sheet, String testName) {
-		
-		
-		
+public void executeTest(Xls_Reader xls, String sheet, String testName) {						
 		int rows = xls.getRowCount(sheet);
 		System.out.println("no of rows: "+rows);
 		for(int rNum=2;rNum<rows;rNum++) {
@@ -65,11 +62,8 @@ public void executeTest(Xls_Reader xls, String sheet, String testName) {
 	}
 
 
-
 	
-	public void executeTestold(Xls_Reader xls, String sheet, String testName) {
-		
-		
+	public void executeTestold(Xls_Reader xls, String sheet, String testName) {				
 		app = new ApplicationKeywords();
 		app.openBrowser("Chrome");
 		app.defaultLogin();

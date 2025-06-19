@@ -82,6 +82,7 @@ public class GenericKeywords {
 				options.setExperimentalOption("prefs", prefs);
 
 				driver = new ChromeDriver(options);
+				//To Maximize the window after chrome Launch
 				driver.manage().window().maximize();
 			}else if(browser.equals("Mozilla")) {
 				System.setProperty("webdriver.gecko.driver", "E:\\Common\\drivers\\geckodriver.exe");
