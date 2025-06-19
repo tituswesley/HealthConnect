@@ -1,0 +1,24 @@
+{
+"browsers":["Chrome","Mozilla"],
+"parallelsuites":"1",
+"testsuites":[
+	{
+	 "runmode":"Y",
+	 "name":"CarePlan Suite",
+	 "testdatajsonfile":"data//careplandata.json",
+	 "testdataxlsfile":"Testcases.xlsx",
+	 "suitefilename":"suites//careplansuite.json",
+	 "paralleltests":"N"
+	},
+	
+	{
+	 "runmode":"N",
+	 "name":"MyStory Suite",
+	 "testdatajsonfile":"data//mystorydata.json",
+	 "testdataxlsfile":"Testcases.xlsx",
+	 "suitefilename":"suites//stocksuite.json",
+	 "paralleltests":"N"
+	}
+]
+
+}

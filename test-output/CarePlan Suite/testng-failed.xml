@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CarePlan Suite]">
+  <test thread-count="5" name="Create Careplan-Create New Care Plan-It.1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="datafilpath" value="C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//src//test//resources//jsons//xls_data//Data.xlsx"/>
+    <parameter name="action" value="createcareplan"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="suitename" value="CarePlan Suite"/>
+    <parameter name="dataflag" value="createnewcareplan"/>
+    <classes>
+      <class name="testcases.hc.CarePlan">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="createCarePlan"/>
+        </methods>
+      </class> <!-- testcases.hc.CarePlan -->
+    </classes>
+  </test> <!-- Create Careplan-Create New Care Plan-It.1(failed) -->
+  <test thread-count="5" name="Create Careplan-Create New Care Plan-It.2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="datafilpath" value="C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//src//test//resources//jsons//xls_data//Data.xlsx"/>
+    <parameter name="action" value="createcareplan"/>
+    <parameter name="iteration" value="1"/>
+    <parameter name="suitename" value="CarePlan Suite"/>
+    <parameter name="dataflag" value="createnewcareplan"/>
+    <classes>
+      <class name="testcases.hc.CarePlan">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="quit"/>
+          <include name="beforeTest"/>
+          <include name="createCarePlan"/>
+        </methods>
+      </class> <!-- testcases.hc.CarePlan -->
+    </classes>
+  </test> <!-- Create Careplan-Create New Care Plan-It.2(failed) -->
+</suite> <!-- Failed suite [CarePlan Suite] -->

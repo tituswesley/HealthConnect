@@ -1,0 +1,36 @@
+{
+	"testdata":[
+	{
+	   "flag":"createnewcareplan",
+	    "data":[
+	     {
+	     "runmode":"Y",
+	     "careplanname":"Breathing",
+	     "Where am I now?":"Test 1",
+	     "Where do I want to get?":"Test 2",
+	     "How do I get there?":"Test 3",
+	     "My Strengths & positive thoughts/comments":"Test 4",
+	     "How can I tell how I am doing?":"Test 5"	     
+	     },
+	     
+	     {
+	     "portfolioname":"Folio2022",
+	     "runmode":"N"
+	     }
+	    ]		
+	},
+	{
+	   "flag":"deleteportfolio",
+	    "data":[
+	     {
+	     "portfolioname":"Cat110111112",
+	     "runmode":"Y"
+	     },
+	     {
+	     "portfolioname":"Folio2022",
+	     "runmode":"N"
+	     }
+	    ]		
+	}
+]
+}

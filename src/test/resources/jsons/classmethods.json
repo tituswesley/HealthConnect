@@ -1,0 +1,18 @@
+{
+    "key":"xxxxxx",
+    "key1":["xx","ss","uu"],
+    "key2":{"x":"y"},
+	"classdetails":[
+		{
+		 "class":"testcases.hc.Session",
+		 "methods":["doLogin","doLogout"]
+		},
+		{
+		 "class":"testcases.hc.CarePlan",
+		 "methods":["createCarePlan","editCarePlan","viewCarePlan"]
+		}
+		
+		
+		
+	]
+}
