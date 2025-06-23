@@ -1,0 +1,1098 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Automation Reports</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7e408aed24af91e1ad76f49a74ecfa0ef1d97cfb/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Production Regression Testing</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Jun 20, 2025 09:40:06 pm</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="page-container">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						
+						
+						
+						
+						<a class="dropdown-item" status="skip" href="#"><span>Skip</span><span class="status warning pull-right"></span></a>
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Create Careplan-Create New Care Plan-It.1</p>
+							<p class="duration text-sm">0h 0m 54s+970ms</p>
+							<span class="datetime">21:40:06 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Create Careplan-Create New Care Plan-It.1</h5>
+									<span class='badge badge-success'>06.20.2025 21:40:06</span>
+									<span class='badge badge-danger'>06.20.2025 21:41:01</span>
+									<span class='badge badge-default'>0h 0m 54s+970ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:06 pm</td>
+				<td>
+						Starting Test Create Careplan-Create New Care Plan-It.1
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:06 pm</td>
+				<td>
+						Data {"runmode":"Y","Where am I now?":"Test 1","Comments":"Test 6","Where do I want to get?":"Test 2","Positive thoughts":"Test 5","Hasthecareplanbeendiscussed":"Yes","password":"Titus@hc1122","My Strengths":"Test 4","How can I tell how I am doing?":"Test 7","How do I get there?":"Test 3","ServiceUser":"Christine ","email":"tituswesley+provider@gmail.com","careplanname":"Breathing"}
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:06 pm</td>
+				<td>
+						Opening The Browser Chrome
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:08 pm</td>
+				<td>
+						Navigating to url
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:08 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:10 pm</td>
+				<td>
+						Starting to create a care Plan
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:10 pm</td>
+				<td>
+						Typing in object email_xpath of locator.//input[@name='email'] with Data tituswesley+provider@gmail.com
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:10 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:10 pm</td>
+				<td>
+						Checking presence of email_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:10 pm</td>
+				<td>
+						Typing in object password_xpath of locator.//input[@name='password'] with Data Titus@hc1122
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:10 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:10 pm</td>
+				<td>
+						Checking presence of password_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:10 pm</td>
+				<td>
+						Clicking on login_submit_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:11 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:11 pm</td>
+				<td>
+						Checking presence of login_submit_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:11 pm</td>
+				<td>
+						waiting for seconds 7
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:18 pm</td>
+				<td>
+						Clicking on accessAgreementaccept_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:18 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:18 pm</td>
+				<td>
+						Checking presence of accessAgreementaccept_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:20 pm</td>
+				<td>
+						waiting for seconds 7
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:27 pm</td>
+				<td>
+						Clicking on demo_facility_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:27 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:27 pm</td>
+				<td>
+						Checking presence of demo_facility_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:27 pm</td>
+				<td>
+						waiting for seconds 7
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:34 pm</td>
+				<td>
+						Clicking on select_hub_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:34 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:34 pm</td>
+				<td>
+						Checking presence of select_hub_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:34 pm</td>
+				<td>
+						waiting for seconds 3
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:37 pm</td>
+				<td>
+						Clicking on select_huboption_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:38 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:38 pm</td>
+				<td>
+						Checking presence of select_huboption_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:38 pm</td>
+				<td>
+						waiting for seconds 5
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:43 pm</td>
+				<td>
+						Typing in object search_serviceUser_xpath of locator.//input[contains(@placeholder, 'Search by first name')] with Data Christine
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:43 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:43 pm</td>
+				<td>
+						Checking presence of search_serviceUser_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:43 pm</td>
+				<td>
+						Clicking on select_ServiceUser_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:43 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:43 pm</td>
+				<td>
+						Checking presence of select_ServiceUser_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:43 pm</td>
+				<td>
+						waiting for seconds 5
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:48 pm</td>
+				<td>
+						Clicking on careplan_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:49 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:49 pm</td>
+				<td>
+						Checking presence of careplan_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:49 pm</td>
+				<td>
+						Clicking on Create_careplan_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:49 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:49 pm</td>
+				<td>
+						Checking presence of Create_careplan_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:49 pm</td>
+				<td>
+						Clicking on Breathing
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:50 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:50 pm</td>
+				<td>
+						waiting for seconds 3
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:53 pm</td>
+				<td>
+						Clicking on label_whereamInow_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:53 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:53 pm</td>
+				<td>
+						Checking presence of label_whereamInow_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:56 pm</td>
+				<td>
+						Typing in object text_whereamInow_xpath of locator.//h1[contains(text(),'Where am I now?')]/following-sibling::div/div/div/div[2]/div[1] with Data Test 1
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:56 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:56 pm</td>
+				<td>
+						Checking presence of text_whereamInow_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:56 pm</td>
+				<td>
+						Clicking on label_WheredoIwanttoget_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:56 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:56 pm</td>
+				<td>
+						Checking presence of label_WheredoIwanttoget_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:57 pm</td>
+				<td>
+						Typing in object text_WheredoIwanttoget_xpath of locator.//h1[contains(text(),'Where do I want to get?')]/following-sibling::div/div/div/div[2]/div[1] with Data Test 2
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:57 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:57 pm</td>
+				<td>
+						Checking presence of text_WheredoIwanttoget_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:57 pm</td>
+				<td>
+						Clicking on label_HowdoIgetthere_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:57 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:57 pm</td>
+				<td>
+						Checking presence of label_HowdoIgetthere_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:57 pm</td>
+				<td>
+						Typing in object text_HowdoIgetthere_xpath of locator.//h1[contains(text(),'How do I get there?')]/following-sibling::div/div/div/div[2]/div[1] with Data Test 3
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Checking presence of text_HowdoIgetthere_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Clicking on label_MyStrengthspositivethoughts_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Checking presence of label_MyStrengthspositivethoughts_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Typing in object text_MyStrengths_xpath of locator.//h1[contains(text(),'My Strengths & positive thoughts/comments')]/following-sibling::div/div[1]/div/div[2]/div[1] with Data Test 4
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Checking presence of text_MyStrengths_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:58 pm</td>
+				<td>
+						Typing in object text_Positivethoughts_xpath of locator.//h1[contains(text(),'My Strengths & positive thoughts/comments')]/following-sibling::div/div[2]/div/div[2]/div[1] with Data Test 5
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:59 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:59 pm</td>
+				<td>
+						Checking presence of text_Positivethoughts_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:59 pm</td>
+				<td>
+						Typing in object text_comments_xpath of locator.//h1[contains(text(),'My Strengths & positive thoughts/comments')]/following-sibling::div/div[3]/div/div[2]/div[1] with Data Test 6
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:59 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:59 pm</td>
+				<td>
+						Checking presence of text_comments_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:40:59 pm</td>
+				<td>
+						Clicking on label_HowcanItellhow Iamdoing_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Checking presence of label_HowcanItellhow Iamdoing_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Typing in object text_HowcanItellhow Iamdoing_xpath of locator.//h1[contains(text(),'How can I tell how I am doing?')]/following-sibling::div/div/div/div[2]/div[1] with Data Test 7
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Checking presence of text_HowcanItellhow Iamdoing_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Clicking on Yes
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Clicking on button_Submit_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Screenshot-> com.aventstack.extentreports.ExtentTest@7318daf8
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:00 pm</td>
+				<td>
+						Checking presence of button_Submit_xpath
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:01 pm</td>
+				<td>
+						waiting for seconds 14
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+<div class="detail-foot">
+	<ul class="attachments">
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_08_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_08_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_08_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_08_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_10_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_18_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_18_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_18_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_18_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_27_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_27_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_27_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_27_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_34_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_34_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_34_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_34_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_37_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_37_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_37_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_37_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_43_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_43_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_43_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_43_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_43_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_43_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_43_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_43_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_48_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_48_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_48_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_48_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_49_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_49_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_49_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_49_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_49_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_49_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_49_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_49_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_53_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_53_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_53_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_53_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_56_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_56_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_56_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_56_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_56_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_56_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_56_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_56_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_57_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_58_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_59_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_59_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_59_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_59_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_59_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_59_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_59_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_40_59_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png'>
+			<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png' src='C:\Users\Wesley Titus\eclipse-workspace\HealthConnect//reports//Fri Jun 20 21-40-06 IST 2025//screenshots//Fri_Jun_20_21_41_00_IST_2025.png'>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="skip" test-id="2"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar skip-bg">
+						<i class="fa fa-long-arrow-right text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Create Careplan-Create New Care Plan-It.2</p>
+							<p class="duration text-sm">0h 0m 0s+2ms</p>
+							<span class="datetime">21:41:16 pm</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-skip">Create Careplan-Create New Care Plan-It.2</h5>
+									<span class='badge badge-success'>06.20.2025 21:41:16</span>
+									<span class='badge badge-danger'>06.20.2025 21:41:16</span>
+									<span class='badge badge-default'>0h 0m 0s+2ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:16 pm</td>
+				<td>
+						Starting Test Create Careplan-Create New Care Plan-It.2
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>9:41:16 pm</td>
+				<td>
+						Data {"runmode":"N","Where am I now?":"Titus Test 1","Comments":"Titus Test 6","Where do I want to get?":"Titus Test 2","Positive thoughts":"Titus Test 5","Hasthecareplanbeendiscussed":"No","password":"Titus@hc1122","My Strengths":"Titus Test 4","How can I tell how I am doing?":"Titus Test 7","How do I get there?":"Titus Test 3","ServiceUser":"Amelia ","email":"tituswesley+provider@gmail.com","careplanname":"Diabetes passport"}
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>9:41:16 pm</td>
+				<td>
+						Skpping as Data Runmode is N
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='50%'>
+						<b>1</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> tests failed, 
+						<b>1</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> events failed, 
+						<b data-tooltip='100%'>93</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">2</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>50.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Jun 20, 2025 09:40:06 pm</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 1m 10s+917ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 2,
+		passParent: 1,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 1,
+		exceptionsParent: 1,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 93,
+		passEvents: 0,
+		failEvents: 0,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 1,
+		infoEvents: 92,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "Create Careplan-Create New Care Plan-It.1":54.97,"Create Careplan-Create New Care Plan-It.2":0.002
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ac7abbc71b4bb073da00153a5a3fdbcfe0c95e2a/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+
+
+</script></body>
+</html>

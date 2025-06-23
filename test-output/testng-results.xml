@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+<testng-results ignored="4" total="6" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-18T23:01:19 IST" name="CarePlan Suite" finished-at="2025-06-18T23:03:44 IST" duration-ms="145474">
+  <suite started-at="2025-06-23T15:13:48 IST" name="CarePlan Suite" finished-at="2025-06-23T15:14:35 IST" duration-ms="46567">
     <groups>
     </groups>
-    <test started-at="2025-06-18T23:01:19 IST" name="Create Careplan-Create New Care Plan-It.1" finished-at="2025-06-18T23:02:40 IST" duration-ms="81698">
+    <test started-at="2025-06-23T15:13:48 IST" name="Create Careplan-Create New Care Plan-It.1" finished-at="2025-06-23T15:14:34 IST" duration-ms="46193">
       <class name="testcases.hc.CarePlan">
-        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@17fc391b]" started-at="2025-06-18T23:01:19 IST" name="beforeTest" finished-at="2025-06-18T23:01:33 IST" duration-ms="14067" status="PASS">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@792b749c]" started-at="2025-06-23T15:13:48 IST" name="beforeTest" finished-at="2025-06-23T15:13:54 IST" duration-ms="5315" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a334bac]]>
+                <![CDATA[org.testng.TestRunner@423c5404]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@17fc391b]" started-at="2025-06-18T23:01:33 IST" name="beforeMethod" finished-at="2025-06-18T23:01:33 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@792b749c]" started-at="2025-06-23T15:13:54 IST" name="beforeMethod" finished-at="2025-06-23T15:13:54 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a334bac]]>
+                <![CDATA[org.testng.TestRunner@423c5404]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCarePlan(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@17fc391b]" started-at="2025-06-18T23:01:33 IST" name="createCarePlan" finished-at="2025-06-18T23:02:38 IST" duration-ms="65679" status="PASS">
+        <test-method signature="createCarePlan(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@792b749c]" started-at="2025-06-23T15:13:54 IST" name="createCarePlan" finished-at="2025-06-23T15:14:33 IST" duration-ms="38879" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a334bac]]>
+                <![CDATA[org.testng.TestRunner@423c5404]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCarePlan -->
-        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@17fc391b]" started-at="2025-06-18T23:02:38 IST" name="quit" finished-at="2025-06-18T23:02:40 IST" duration-ms="1864" status="PASS">
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@792b749c]" started-at="2025-06-23T15:14:33 IST" name="quit" finished-at="2025-06-23T15:14:34 IST" duration-ms="1952" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2a334bac]]>
+                <![CDATA[org.testng.TestRunner@423c5404]]>
               </value>
             </param>
           </params>
@@ -53,46 +53,108 @@
         </test-method> <!-- quit -->
       </class> <!-- testcases.hc.CarePlan -->
     </test> <!-- Create Careplan-Create New Care Plan-It.1 -->
-    <test started-at="2025-06-18T23:02:40 IST" name="Create Careplan-Create New Care Plan-It.2" finished-at="2025-06-18T23:03:44 IST" duration-ms="63741">
+    <test started-at="2025-06-23T15:14:35 IST" name="Create Careplan-Create New Care Plan-It.2" finished-at="2025-06-23T15:14:35 IST" duration-ms="342">
       <class name="testcases.hc.CarePlan">
-        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@30f842ca]" started-at="2025-06-18T23:02:40 IST" name="beforeTest" finished-at="2025-06-18T23:02:44 IST" duration-ms="3460" status="PASS">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@4d15107f]" started-at="2025-06-23T15:14:35 IST" name="beforeTest" finished-at="2025-06-23T15:14:35 IST" duration-ms="218" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6707a4bf]]>
+                <![CDATA[org.testng.TestRunner@3337d04c]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@30f842ca]" started-at="2025-06-18T23:02:44 IST" name="beforeMethod" finished-at="2025-06-18T23:02:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@4d15107f]" started-at="2025-06-23T15:14:35 IST" name="beforeMethod" finished-at="2025-06-23T15:14:35 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6707a4bf]]>
+                <![CDATA[org.testng.TestRunner@3337d04c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCarePlan(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@30f842ca]" started-at="2025-06-18T23:02:44 IST" name="createCarePlan" finished-at="2025-06-18T23:03:43 IST" duration-ms="59743" status="PASS">
+        <test-method signature="createCarePlan(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@4d15107f]" started-at="2025-06-23T15:14:35 IST" name="createCarePlan" finished-at="2025-06-23T15:14:35 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6707a4bf]]>
+                <![CDATA[org.testng.TestRunner@3337d04c]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skpping as Data Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skpping as Data Runmode is N
+at testbase.BaseTest.beforeTest(BaseTest.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at runner.TestNGRunner.run(TestNGRunner.java:86)
+at runner.JSONRunner.main(JSONRunner.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCarePlan -->
-        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@30f842ca]" started-at="2025-06-18T23:03:43 IST" name="quit" finished-at="2025-06-18T23:03:44 IST" duration-ms="536" status="PASS">
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.hc.CarePlan@4d15107f]" started-at="2025-06-23T15:14:35 IST" name="quit" finished-at="2025-06-23T15:14:35 IST" duration-ms="116" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6707a4bf]]>
+                <![CDATA[org.testng.TestRunner@3337d04c]]>
               </value>
             </param>
           </params>

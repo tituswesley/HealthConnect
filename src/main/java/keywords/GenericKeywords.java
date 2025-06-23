@@ -33,7 +33,9 @@ import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.Markup;
 
 import reports.ExtentManager;
 
@@ -100,17 +102,20 @@ public class GenericKeywords {
 	
 	public void navigate(String urlKey) {
 		log("Navigating to "+ urlKey);
+		takeScreenShot();
 		driver.get(envProp.getProperty(urlKey));
 	}
 	
 	public void click(String locatorKey, String locator) {
 		log("Clicking on "+locatorKey);
+		takeScreenShot();
 		getElement(locatorKey, locator).click();// not present, not visible
 		System.out.println("Element Clicked: ");
 	}
 	
 	public void clickOnData(String locator, String data) {
 		log("Clicking on "+data);
+		takeScreenShot();
 		//String newlocator = ".//span[contains(text(),'oldString')]";
 		String newlocator = locator.replace("oldString", data);
 		System.out.println("oldlocator: "+locator);
@@ -125,6 +130,7 @@ public class GenericKeywords {
 	
 	public void type(String locatorKey, String locator, String data) {
 		log("Typing in object "+locatorKey+" of locator"+locator+ " with Data "+ data);
+		takeScreenShot();
 		getElement(locatorKey, locator).sendKeys(data);
 	}
 //	public void clear(String locatorKey) {
@@ -241,13 +247,16 @@ public class GenericKeywords {
 		// fileName of the screenshot
 		Date d=new Date();
 		String screenshotFile=d.toString().replace(":", "_").replace(" ", "_")+".png";
+		String filepath = ExtentManager.screenshotFolderPath+"//"+screenshotFile;
 		// take screenshot
 		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
 			// get the dynamic folder name
 			FileUtils.copyFile(srcFile, new File(ExtentManager.screenshotFolderPath+"//"+screenshotFile));
 			//put screenshot file in reports
-			test.log(Status.INFO,"Screenshot-> "+ test.addScreenCaptureFromPath(ExtentManager.screenshotFolderPath+"//"+screenshotFile));
+			//test.log(Status.INFO,"Screenshot-> "+ test.addScreenCaptureFromPath(ExtentManager.screenshotFolderPath+"//"+screenshotFile));
+			test.log(Status.INFO, filepath, MediaEntityBuilder.createScreenCaptureFromPath(filepath).build());
+			//MediaEntityBuilder.createScreenCaptureFromPath(ExtentManager.screenshotFolderPath+"//"+screenshotFile).build();			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
