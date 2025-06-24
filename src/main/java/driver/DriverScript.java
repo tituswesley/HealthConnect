@@ -20,7 +20,8 @@ public class DriverScript {
 		ds.executeTest(xls, "TestCases", "CarePlan");
 	}
 	
-public void executeTest(Xls_Reader xls, String sheet, String testName) {						
+public void executeTest(Xls_Reader xls, String sheet, String testName) {	
+		System.out.println("Starting Execute Test");
 		int rows = xls.getRowCount(sheet);
 		System.out.println("no of rows: "+rows);
 		for(int rNum=2;rNum<rows;rNum++) {

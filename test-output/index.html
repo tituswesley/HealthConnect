@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-CarePlan_Suite" class="navigator-link">
-              <span class="suite-name border-skipped">CarePlan Suite</span>
+              <span class="suite-name border-passed">CarePlan Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-CarePlan_Suite" class="hide-methods skipped suite-CarePlan_Suite"> (hide)</a> <!-- hide-methods skipped suite-CarePlan_Suite -->
-                      <a href="#" panel-name="suite-CarePlan_Suite" class="show-methods skipped suite-CarePlan_Suite"> (show)</a> <!-- show-methods skipped suite-CarePlan_Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-CarePlan_Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-CarePlan_Suite" title="testcases.hc.CarePlan" class="method navigator-link" hash-for-method="createCarePlan(org.testng.TestRunner@3337d04c)">createCarePlan(org.testng.TestRunner@3337d04c)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-CarePlan_Suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +103,12 @@
                     <div class="method-list-content passed suite-CarePlan_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CarePlan_Suite" title="testcases.hc.CarePlan" class="method navigator-link" hash-for-method="createCarePlan(org.testng.TestRunner@423c5404)">createCarePlan(org.testng.TestRunner@423c5404)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CarePlan_Suite" title="testcases.hc.CarePlan" class="method navigator-link" hash-for-method="createCarePlan(org.testng.TestRunner@76a14c8d)">createCarePlan(org.testng.TestRunner@76a14c8d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CarePlan_Suite" title="testcases.hc.CarePlan" class="method navigator-link" hash-for-method="createCarePlan(org.testng.TestRunner@54336976)">createCarePlan(org.testng.TestRunner@54336976)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CarePlan_Suite -->
@@ -132,28 +123,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CarePlan_Suite" class="panel CarePlan_Suite">
-          <div class="suite-CarePlan_Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testcases.hc.CarePlan</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createCarePlan(org.testng.TestRunner@3337d04c)">
-                  </a> <!-- createCarePlan(org.testng.TestRunner@3337d04c) -->
-                  <span class="method-name">createCarePlan</span>
-                  <span class="parameters">(org.testng.TestRunner@3337d04c)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skpping as Data Runmode is N
-	at testbase.BaseTest.beforeTest(BaseTest.java:75)
-	at runner.TestNGRunner.run(TestNGRunner.java:86)
-	at runner.JSONRunner.main(JSONRunner.java:121)
-... Removed 19 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CarePlan_Suite-class-skipped -->
           <div class="suite-CarePlan_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -162,10 +131,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createCarePlan(org.testng.TestRunner@423c5404)">
-                  </a> <!-- createCarePlan(org.testng.TestRunner@423c5404) -->
+                  <a name="createCarePlan(org.testng.TestRunner@76a14c8d)">
+                  </a> <!-- createCarePlan(org.testng.TestRunner@76a14c8d) -->
                   <span class="method-name">createCarePlan</span>
-                  <span class="parameters">(org.testng.TestRunner@423c5404)</span>
+                  <span class="parameters">(org.testng.TestRunner@76a14c8d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCarePlan(org.testng.TestRunner@54336976)">
+                  </a> <!-- createCarePlan(org.testng.TestRunner@54336976) -->
+                  <span class="method-name">createCarePlan</span>
+                  <span class="parameters">(org.testng.TestRunner@54336976)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,16 +230,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createCarePlan')
 data.setCell(0, 2, 'testcases.hc.CarePlan')
-data.setCell(0, 3, 38879);
+data.setCell(0, 3, 149950);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'createCarePlan')
 data.setCell(1, 2, 'testcases.hc.CarePlan')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 134230);
 window.suiteTableData['CarePlan_Suite']= { tableData: data, tableDiv: 'times-div-CarePlan_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-CarePlan_Suite">
               </div> <!-- times-div-CarePlan_Suite -->
             </div> <!-- times-div -->
@@ -303,32 +280,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.hc.CarePlan</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@423c5404)</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@76a14c8d)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(org.testng.TestRunner@423c5404)</span>
-                <span class="method-start">5345 ms</span>
+                <span class="method-name">beforeMethod(org.testng.TestRunner@76a14c8d)</span>
+                <span class="method-start">4414 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">createCarePlan(org.testng.TestRunner@423c5404)</span>
-                <span class="method-start">5346 ms</span>
+                <span class="method-name">createCarePlan(org.testng.TestRunner@76a14c8d)</span>
+                <span class="method-start">4416 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">quit(org.testng.TestRunner@423c5404)</span>
-                <span class="method-start">44233 ms</span>
+                <span class="method-name">quit(org.testng.TestRunner@76a14c8d)</span>
+                <span class="method-start">154378 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(org.testng.TestRunner@3337d04c)</span>
-                <span class="method-start">46219 ms</span>
+                <span class="method-name">beforeTest(org.testng.TestRunner@54336976)</span>
+                <span class="method-start">158669 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(org.testng.TestRunner@3337d04c)</span>
-                <span class="method-start">46441 ms</span>
+                <span class="method-name">beforeMethod(org.testng.TestRunner@54336976)</span>
+                <span class="method-start">163723 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCarePlan(org.testng.TestRunner@54336976)</span>
+                <span class="method-start">163725 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">quit(org.testng.TestRunner@3337d04c)</span>
-                <span class="method-start">46444 ms</span>
+                <span class="method-name">quit(org.testng.TestRunner@54336976)</span>
+                <span class="method-start">297957 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,57 +1,34 @@
 {
 	"testdata":[
 	{
-	   "flag":"addfreshstock",
+	   "flag":"createnewcareplan",
 	    "data":[
 	     {
-	     "portfolioname":"Cat",
-	     "stockname":"Birla Corporation Ltd",
-	     "date":"12-12-2020",
-	     "quantity":"100",
-	     "price":"200",
-	     "runmode":"Y"
+	     "runmode":"Y",
+	     "careplanname":"Breathing",
+	     "Where am I now?":"Test 1",
+	     "Where do I want to get?":"Test 2",
+	     "How do I get there?":"Test 3",
+	     "My Strengths & positive thoughts/comments":"Test 4",
+	     "How can I tell how I am doing?":"Test 5"	     
 	     },
+	     
 	     {
-	     "portfolioname":"Cat",
-	     "stockname":"Reliance Industries Ltd",
-	     "date":"21-12-2021",
-	     "quantity":"200",
-	     "price":"400",
+	     "portfolioname":"Folio2022",
 	     "runmode":"N"
 	     }
 	    ]		
 	},
 	{
-	   "flag":"addexistingstock",
+	   "flag":"deleteportfolio",
 	    "data":[
 	     {
-	     "portfolioname":"Cat",
-	     "stockname":"Birla Corporation Ltd",
-	     "date":"12-12-2020",
-	     "quantity":"100",
-	     "price":"200",
+	     "portfolioname":"Cat110111112",
 	     "runmode":"Y"
 	     },
-	      {
-	      "portfolioname":"Cat",
-	     "stockname":"Reliance Industries Ltd",
-	     "date":"21-12-2020",
-	     "quantity":"200",
-	     "price":"400",
-	     "runmode":"N"
-	     }
-	    ]		
-	},
-	{
-	   "flag":"sellexistingstock",
-	    "data":[
 	     {
-	     "portfolioname":"Cat",
-	     "stockname":"Birla Corporation Ltd",
-	     "date":"12-12-2020",
-	     "quantity":"100",
-	     "price":"200",
-	     "runmode":"Y"
+	     "portfolioname":"Folio2022",
+	     "runmode":"N"
 	     }
 	    ]		
 	}
